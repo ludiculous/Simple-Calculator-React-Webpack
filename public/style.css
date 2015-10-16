@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500,400,700);
+
+.col-xs-3{
+	padding-left: 2px!important;
+	padding-right: 2px!important;
+}
+.container{
+	max-width: 720px;
+}
+#calculator{
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;	
+}
+
+#screen{
+	width:100%;
+	border-radius: 9px;
+	border: .5px solid #607D8B;
+	color:  #607D8B;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 21px;
+	text-indent: 21px;
+	font-weight: 700;
+}
+
+.buttonfield{
+	margin-top: 20px;
+}
+
+.calcButton{
+	width: 100%;
+	background-color: #FFC107;
+	border-bottom: 1.5px solid #607D8B;
+	border-right: 1px solid #607D8B;
+	padding: .5em;
+	margin-top: 4px;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 16px;
+	color: #727272;
+	font-weight: 500;
+}
+.calcButton:hover{
+	cursor: pointer;
+}
